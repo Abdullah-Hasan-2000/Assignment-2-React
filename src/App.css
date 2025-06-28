@@ -20,7 +20,7 @@
 .dropdown-design {
   border: none;
   outline: none;
-  color: blue;
+  color: rgb(0, 48, 110);
   font-weight: bold;
 }
 
@@ -40,13 +40,19 @@
 }
 
 .academics-section {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  width: 80%;
 }
 
 .academics-heading {
   font-weight: bold;
-  color: blue;
+  color: rgb(0, 48, 110);
   font-size: 48px;
   margin: 0;
 }
@@ -60,7 +66,113 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   gap: 20px;
   padding: 20px 0;
+}
+
+.lms-section-container{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.lms-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+}
+
+.lms-content {
+  width: 40%;
+}
+
+.lms-heading-design {
+  font-weight: 700;
+  font-size: 50px;
+  margin: 0;
+}
+
+.blue-text {
+  color: rgb(0, 48, 110);
+}
+
+.red-text {
+  color: rgb(210, 9, 60);
+}
+
+.grey-text {
+  color: rgb(128, 128, 128);
+}
+
+.f-2 {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #d3d3d3;
+  margin: 30px 0;
+}
+
+.lms-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.lms-button button:hover {
+  background-color: rgb(210, 9, 60);
+  color: white;
+  cursor: pointer;
+  border: 2px solid rgb(210, 9, 60);
+  transition: all 0.3s ease-in-out;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.f-0 {
+  font-size: 12px;
+}
+
+.lms-chat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.lms-support {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 5px;
+}
+
+.free-guide {
+  color: rgb(210, 9, 60);
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.support {
+  text-decoration: none;
+  color: rgb(0, 48, 110);
+  font-weight: 600;
+}
+
+.campus-life-container {
+  margin-top: 100px;
+  background-color: rgb(238, 238, 238);
+}
+
+.extra-padding {
+  padding: 50px 0;
 }
