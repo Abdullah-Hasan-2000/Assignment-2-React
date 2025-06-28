@@ -1,0 +1,40 @@
+.background_color {
+    background-color: rgb(85, 85, 121);
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.list_style {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 5px 0px;
+}
+
+.navbar_main {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto !important;
+}
+
+.alignment {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.anchor_style {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.img_dimensions {
+    width: 25px;
+    height: 25px;
+}

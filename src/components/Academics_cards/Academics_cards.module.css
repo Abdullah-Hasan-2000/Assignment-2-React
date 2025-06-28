@@ -1,0 +1,35 @@
+.container_position {
+    position: relative;
+}
+
+.text_position {
+    position: absolute;
+    bottom: 5%;
+    font-weight: bold;
+    left: 5%;
+    color: white;
+    font-size: 24px;
+    gap: 5px;
+
+}
+
+.text_position a {
+    margin: 0;
+}
+
+.anchor_style {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.text_position_1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+}
+
+.arrow_design {
+    color: white;
+}

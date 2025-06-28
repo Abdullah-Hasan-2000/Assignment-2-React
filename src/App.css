@@ -1,0 +1,66 @@
+.navbar-width {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar-list{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0;
+    padding: 5px 0px;
+
+}
+
+.dropdown-design {
+  border: none;
+  outline: none;
+  color: blue;
+  font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.extra-padding {
+    margin-top: 3px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+}
+
+.academics-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.academics-heading {
+  font-weight: bold;
+  color: blue;
+  font-size: 48px;
+  margin: 0;
+}
+
+.academics-header {
+  text-align: center;
+}
+
+.academics_cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 0;
+}
